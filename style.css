@@ -39,11 +39,15 @@
     padding-bottom: 4rem;
 }
 
+.vision {
+    position: center;
+}
 
-/* about section image css */
+
+/* gøre og vision image */
 .v-img {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 
 
