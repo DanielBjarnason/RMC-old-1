@@ -1,31 +1,57 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/technology.jpg');
+    background: url('images/heroImage.jpg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+
+/* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
 }
+
 .hero_desc {
     font-size: 2rem;
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-.v-image {
-    width: 100%;
+/* spacing on all sections */
+#about, #services, #portfolio, #contact { 
+    margin-top: 4rem;
+    padding-top: 4rem;
 }
 
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: black;
+#contact {
+    padding-bottom: 4rem;
+}
+
+.contactContent {
+    postion: center;
+}
+
+/* about section image css */
+.v-img {
+    width: 100%;
+    border-radius: 15%;
+}
+
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
 }
