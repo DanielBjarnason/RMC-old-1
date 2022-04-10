@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpg');
+    background: url('images/technology.jpg');
     background-size:cover;
     position:relative;
 }
@@ -30,18 +30,15 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact { 
+#vision, #gøre, { 
     margin-top: 4rem;
     padding-top: 4rem;
 }
 
-#contact {
+#gøre {
     padding-bottom: 4rem;
 }
 
-.contactContent {
-    postion: center;
-}
 
 /* about section image css */
 .v-img {
