@@ -22,6 +22,7 @@
 #apv {
     background: grey;
     color: black;
+    border-radius: 15%;
 }
 
 /* text css above hero image */
