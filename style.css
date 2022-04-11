@@ -17,6 +17,7 @@
     background: url('images/Clockwork.jpg');
     background-size:cover;
     position:relative;
+}
 
 /* text css above hero image */
 .hero_title {
