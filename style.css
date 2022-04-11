@@ -13,14 +13,13 @@
 
 /* egenimage */
 .egenimage {
-    height:20rem;
+    height:40rem;
     background: url('images/Clockwork.jpg');
     position:relative;
 }
 
 #apv {
     border: solid;
-    border-radius: 15%;
 }
 
 /* text css above hero image */
