@@ -31,12 +31,12 @@
 
 /* spacing on all sections */
 #vision, #gøre, #egen, #arbejdsmiljø { 
-    margin-top: 3rem;
-    padding-top: 3rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 #arbejdsmiljø {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* gøre og vision image */
