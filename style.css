@@ -13,7 +13,7 @@
 
 /* egenimage */
 .egenimage {
-    height:100vh;
+    height:20rem;
     background: url('images/Clockwork.jpg');
     background-size:cover;
     position:relative;
