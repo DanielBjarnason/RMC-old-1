@@ -19,7 +19,8 @@
 }
 
 #apv {
-    border: solid;
+    border: 20px groove rgba(215, 253, 176, 0.56);
+    border-radiues: 25px;
 }
 
 /* text css above hero image */
