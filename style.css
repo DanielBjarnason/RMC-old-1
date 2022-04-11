@@ -11,16 +11,6 @@
     position:relative;
 }
 
-/* egenimage */
-.egenimage {
-    height:40rem;
-    background: url('images/Clockwork.jpg');
-    position:relative;
-}
-
-#apv {
-}
-
 /* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
