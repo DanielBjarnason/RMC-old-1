@@ -15,7 +15,6 @@
 .egenimage {
     height:20rem;
     background: url('images/Clockwork.jpg');
-    background-size:cover;
     position:relative;
 }
 
@@ -43,7 +42,7 @@
 }
 
 /* spacing on all sections */
-#vision, #gøre, { 
+#vision, #gøre, #egen #arbejdsmiljø { 
     margin-top: 4rem;
     padding-top: 4rem;
 }
