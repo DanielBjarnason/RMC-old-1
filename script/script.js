@@ -17,3 +17,25 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+
+// survey
+Survey.StylesManager.applyTheme("defaultV2");
+
+var json = {
+    surveyId: 'cb9297f7-e6ef-4b0a-8af2-2a16a1ca4055',
+    surveyPostId: '245ba536-1dfb-4be5-993c-6a93f8e1aace'
+};
+
+window.survey = new Survey.Model(json);
+
+survey
+    .onComplete
+    .add(function (sender) {
+        document
+            .querySelector('#surveyResult')
+            .textContent = "Result JSON:\n" + JSON.stringify(sender.data, null, 3);
+    });
+
+survey.showProgressBar = 'bottom';
+
+$("#surveyElement").Survey({model: survey});
