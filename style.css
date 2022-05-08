@@ -83,6 +83,9 @@
   top: 2px;
 }
 
+#bg {
+    background: linear-gradient(150deg, #000 0%, #fff 100%);
+}
 
 /* footer styling */
 #footer {
