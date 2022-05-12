@@ -1,6 +1,5 @@
-/* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: black;
+.navbar-brand {
+    color: white;
 }
 
 /* hero background image */
@@ -13,65 +12,40 @@
 
 /* text css above hero image */
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 5.0rem;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .hero_desc {
     font-size: 2rem;
+    font-family: Merriweather, serif;
 }
 
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
-/* spacing on all sections */
-#vision, #gøre, #egen, #arbejdsmiljø { 
-    margin-top: 1rem;
-    padding-top: 1rem;
+.bag, 
+.dataetik,
+.visionen,
+.kontakt,
+.kvalitetssikring {
+    height: 100%;
 }
 
-#arbejdsmiljø {
-    padding-bottom: 1rem;
+p {
+    font-family: Raleway, sans-serif;
 }
 
-/* gøre og vision image */
-.v-img {
-    max-width: 100%;
+.vision {
+    border: 5px solid;
     border-radius: 10%;
-}
-
-.button {
-  min-width: 130px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  border-radius: 20px;
-  border: 2px solid #adb5bd;
-  background: #adb5bd;
-}
-.css-button-fully-rounded--sand:hover {
-  background: #fff;
-  color: #adb5bd
-}
-
-#bg {
-   background: linear-gradient(170deg, #FFFFFF 0%, #505050 100%);
-}
-
-/* footer styling */
-#footer {
-    background-color: #808080;
-    text-align: center;
-    height: 3rem;
+    height: 58rem;
 }
