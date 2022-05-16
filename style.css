@@ -13,14 +13,12 @@
 /* text css above hero image */
 .hero_title {
     font-size: 5.0rem;
-    font-family: 'Hubballi', cursive;
-    font-family: 'Merriweather', serif;
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .hero_desc {
     font-size: 2rem;
-    font-family: Merriweather, serif;
+    font-family: 'Hubballi', cursive;
 }
 
 .hero-text {
